@@ -1,0 +1,710 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+      font-family: "Clicker Script", cursive;
+      font-family: "Playfair Display", serif;
+}
+.first-container{
+    background-image: url(bg.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+}
+.logo p{
+       font-family: "Clicker Script", cursive;
+       font-size: 35px;
+}
+nav {
+height: 60px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+color:white;
+}
+nav ul{
+    display: flex;
+    gap: 60px;
+    font-family: "Playfair Display", serif;
+    font-size: 14px;
+}
+nav ul li {
+    list-style: none;
+}
+.button{
+    display: flex;
+    gap: 50px;
+}
+.button a {
+    font-size: 14px;
+    text-decoration: none;
+}
+.login{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.btn{
+    background-color: rgba(249, 192, 106, 1);
+    padding:10px 15px;
+    border-radius: 24px;
+    color: black;
+}
+.content{
+    color: white;
+    margin: 200px;
+}
+.content p:nth-of-type(1){
+    font-family: "Playfair Display", serif;
+    letter-spacing: 1.9;
+    font-size: 29px;
+   width: 450px;
+    
+}
+.content p span{
+     font-family: "Clicker Script", cursive;
+     font-size: 220px;
+     line-height:1.4;
+     font-weight: 400px;
+}
+.content p:nth-of-type(2){
+    width: 527px;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    line-height: 34px;
+}
+button{
+    margin-top: 30px;
+    font-family: "Playfair Display", serif;
+    background-color: rgba(249, 192, 106, 1);
+    border-radius: 40px;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+.second-container{
+    display: flex;
+}
+.s-title p{
+    margin: 90px 0 0 90px;
+    font-family: "Playfair Display", serif;
+    font-size: 54px;
+    font-weight:bold ;
+    color: rgba(96, 56, 9, 1);
+}
+.description p{
+   font-family: "Playfair Display", serif; 
+   font-size: 20px;
+   line-height: 34px;
+   width:550px;
+   margin:50px 0 10px 92px;
+   color: rgba(112, 112, 112, 1);
+}
+.btn1{
+   display: block;
+   margin-left: 72px;
+}
+.title-img img{
+    margin-left: 400px;
+    height: 500px;
+    width: 400px;
+}
+
+.des-title{
+   color: rgba(96, 56, 9, 1);
+   font-family: "Playfair Display", serif;
+   font-weight: bold;
+   font-size: 54px;
+  
+   text-align: center;
+  
+}
+.small-para{
+   color: rgba(112, 112, 112, 1);
+   font-family: "Playfair Display", serif;
+   font-size: 20px;
+   margin-top: 30px;
+   text-align: center;
+
+}
+.coffee-cards{
+   display: flex;
+   gap: 20px;
+   justify-content: center;
+}
+.coffees{
+    text-align: center;
+    margin-top: 40px;
+    height: 400px;
+    width: 300px;
+    background-color: rgba(249, 192, 106, 0.42);
+    border: 1px solid rgba(249, 192, 106, 0.42);
+}
+.coffees img{
+    margin: 0;
+    width: 300px;
+    height: 222px;
+}
+.coffees h4{
+    margin-top: 10px;
+    font-family: "Playfair Display", serif;
+    font-size: 29px;
+    color: rgba(96, 56, 9, 1);
+}
+.coffees p{
+    margin-top: 10px;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    color: black;
+}
+ .coffees p:nth-of-type(2){
+   font-family: "Playfair Display", serif;
+   color: rgba(96, 56, 9, 1); 
+   font-size: 25px;
+   font-weight: bold;
+}
+.btn2 button{
+   padding: 10px 20px;
+   margin-top: 40px;
+   font-size: 20px;
+}
+.f-title{
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 55px;
+    color: rgba(96, 56, 9, 1);
+}
+.f-para p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgba(112, 112, 112, 1);
+}
+.boxes1{
+   display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.box{
+    height: 284px;
+    width: 280px;
+    margin-top: 50px;
+    background:rgba(249, 192, 106, 0.42);
+    border: 2px solid burlywood;
+}
+ img{
+    margin:30px  30px 0 90px;
+    height: 100px;
+}
+.box h5{
+    color: rgba(96, 56, 9, 1);
+    font-family: "Playfair Display", serif;
+    font-size: 35px;
+    margin-top: 20px;
+    text-align: center;
+}
+.box p{
+   font-family: "Playfair Display", serif;
+   color: rgba(112, 112, 112, 1);
+   font-size: 23px; 
+   margin-top: 20px;
+   text-align: center;
+}
+.f1-para{
+    text-align: center;
+    margin-top: 40px;
+    font-family: "Playfair Display", serif;
+    color: rgba(112, 112, 112, 1);
+    font-size: 20px;
+}
+.f1-title{
+    color: rgba(96, 56, 9, 1);
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+.btn3 button{
+    margin: 20px 0 0 47%;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+.fifth-container{
+    background-image: url(coffee\ bg.png);
+    height: 100vh;
+    background-size: cover;
+    background-color:  rgba(96, 56, 9, 1);
+    background-blend-mode:soft-light;
+    margin-top: 40px;
+    opacity: 80%;
+   
+}
+.fifth-title h5{
+     font-family: "Playfair Display", serif;
+     font-size: 54px;
+     color:white;
+     width: 875px;
+     padding:  15% 0px 0 10%;
+}
+.fifth-para{
+     font-family: "Playfair Display", serif;
+     font-size: 20px;
+     width: 576px;
+     line-height: 1.4;
+      padding:  1% 0px 0 10%; 
+      color: white;
+}
+.btn4 button{
+    margin: 30px 0 0  10%;
+}
+.images img{
+    position: absolute;
+    bottom: -2530px;
+    top: 2810px;
+    left: 1060px;
+    height: 800px;
+}
+.images1 img{
+    position: absolute;
+    bottom: -2530px;
+    top: 2990px;
+    left: 1150px;
+    height: 600px;
+}
+.section-heading h2{
+    font-family: "Playfair Display", serif;
+    font-size: 54px;
+    color:  rgba(96, 56, 9, 1);
+    text-align: center;
+    margin-top: 40px;
+}
+.section-heading p{
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    color: rgba(112, 112, 112, 1);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.test{
+    position: relative;
+    height: 550px;
+    width: 700px;
+    margin: 30px 0 0 32%;
+    text-align: center;
+    padding: 60px 70px;
+    border-radius: 10px;
+    background-color: rgba(249, 192, 106, 0.42);
+}
+.test span {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color:  rgba(96, 56, 9, 1);
+    font-size: 110px;
+}
+.test p{
+    width: 600px;
+    line-height: 34px;
+    text-align:center;
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+}
+.test h3{
+    color:  rgba(96, 56, 9, 1);
+    font-size: 32px;
+    margin-top: 10px;
+    padding-left: 50px;
+}
+.customer{
+     font-family: "Playfair Display", serif;
+     font-size: 20px;
+     color: rgba(112, 112, 112, 1);
+    
+}
+.subscribe {
+    min-height: 374px;
+    background-color:rgba(96, 56, 9, 1);
+    background-image: url(coffee\ bg.png);
+    background-size: cover;
+    background-position: center;
+   background-blend-mode:soft-light;
+    opacity: 70%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.subscribe h2 {
+    font-size: 55px;
+    margin-top: 65px;
+}
+
+.subscribe p {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    margin: 10px 0 20px 15%;
+}
+
+.subscribe form {
+    max-width: 600px;
+    margin-left: 20%;
+    
+}
+.subscribe input{
+    padding: 10px 100px;
+}
+
+.subscibe button{
+    color: black;
+    font-size: 30px;
+}
+.foot{
+    background-color:rgba(96, 56, 9, 1);
+    display: flex;
+    color: white;
+    gap: 190px;
+    justify-content: space-around;
+}
+.foot-title h4{
+    font-family: "Clicker Script", cursive;
+    font-size: 54px;
+    margin: 30px;
+}
+.foot-para p{
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    width: 390px;
+    line-height: 1.4;
+    margin: 30px;
+}
+.p-socials{
+    display: flex;
+    gap:30px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.fon{
+   font-weight: bold;
+    margin-top: 30px;
+   font-family: "Playfair Display", serif;
+   font-size: 26px; 
+}
+ul li{
+    font-size: 20px;
+   margin-top: 40px;
+    list-style: none;
+}
+
+
+
+
+
+ 
+
+
+
+
+
+
+@media (max-width: 480px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Navbar */
+    nav {
+        height: auto;
+        padding: 15px;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .logo p {
+        font-size: 25px;
+    }
+
+    .button {
+        gap: 15px;
+    }
+
+    /* First Section */
+    .first-container {
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .content {
+        margin: 100px 20px 0;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .content p:nth-of-type(1) {
+        width: 100%;
+        font-size: 22px;
+    }
+
+    .content p span {
+        font-size: 85px;
+    }
+
+    .content p:nth-of-type(2) {
+        width: 100%;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    /* Second Section */
+    .second-container {
+        flex-direction: column;
+    }
+
+    .s-title p {
+        margin: 40px 20px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .description p {
+        width: auto;
+        margin: 20px;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .btn1 {
+        margin: 20px auto;
+    }
+
+    .title-img img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    /* Third Section */
+    .des-title {
+        font-size: 28px;
+        padding: 0 15px;
+    }
+
+    .small-para {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+
+    .coffee-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .coffees {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .coffees img {
+        width: 100%;
+        height: 222px;
+        margin: 0;
+    }
+
+    /* Fourth Section */
+    .f-title {
+        font-size: 28px;
+        padding: 0 15px;
+    }
+
+    .f-para p {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+
+    .boxes1 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .box {
+        width: 90%;
+        max-width: 280px;
+        margin: 20px 0 0;
+    }
+
+    .box img {
+        display: block;
+        margin: 30px auto 0;
+    }
+
+    .f1-para {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+
+    .f1-title {
+        font-size: 22px;
+    }
+
+    .btn3 button {
+        display: block;
+        margin: 20px auto;
+    }
+
+    /* Fifth Section */
+    .fifth-container {
+        width: 100%;
+        height: auto;
+        min-height: 500px;
+        background-position: center;
+    }
+
+    .fifth-title h5 {
+        width: 100%;
+        font-size: 30px;
+        padding: 80px 20px 0;
+    }
+
+    .fifth-para {
+        width: 100%;
+        font-size: 16px;
+        padding: 20px;
+    }
+
+    .btn4 button {
+        margin: 20px;
+    }
+
+    .images img,
+    .images1 img {
+        display: none;
+    }
+
+    /* Feedback Section */
+    .section-heading h2 {
+        font-size: 30px;
+        padding: 0 15px;
+    }
+
+    .section-heading p {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+
+    .test {
+        width: calc(100% - 30px);
+        height: auto;
+        margin: 30px auto;
+        padding: 60px 20px 30px;
+    }
+
+    .test p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: justify;
+    }
+
+    .test h3 {
+        font-size: 20px;
+        padding: 0;
+    }
+
+     .test img {
+       position:absolute;
+       right: 130px;
+       margin: 10px 10px 30px;
+        max-width: 100%;
+    }
+
+    .customer {
+        font-size: 15px;
+        padding: 0;
+    }
+
+    /* Subscribe Section */
+    .subscribe {
+        margin-top: 90px;
+        padding: 30px 15px;
+        text-align: center;
+    }
+
+    .subscribe h2 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .subscribe p {
+        font-size: 16px;
+        margin: 15px 0;
+    }
+
+    .subscribe form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        max-width: 280px;
+        margin: 20px auto;
+    }
+
+    .subscribe input {
+        width: 100%;
+        padding: 12px;
+    }
+
+    /* Footer */
+    .foot {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .foot-title h4 {
+        font-size: 40px;
+        margin: 20px;
+    }
+
+    .foot-para p {
+        width: auto;
+        max-width: 320px;
+        font-size: 15px;
+        line-height: 1.6;
+        margin: 20px auto;
+    }
+
+    .p-socials {
+        justify-content: center;
+        gap: 25px;
+        margin: 20px 0;
+    }
+
+    .foot ul {
+        padding: 0;
+    }
+
+    .foot ul li {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .fon {
+        font-size: 23px !important;
+    }
+}
